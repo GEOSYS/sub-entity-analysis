@@ -105,14 +105,14 @@ To set up the project, follow these steps:
 1. Clone the project repository:
 
     ```
-    git clone http://git.geosys-eu.local/BYOA/SubEntitiesAnalysis
+    git clone https://github.com/GEOSYS/sub-entity-analysis
     ```
 
 
 2. Change the directory:
 
     ```
-    cd SubEntitiesAnalysis
+    cd sub-entity-analysis
     ```
 
 
@@ -125,7 +125,7 @@ Ensure that you populate the .env file with your Geosys APIs credentials. If you
    API_CLIENT_SECRET = <your client id>
    API_USERNAME = <your username>
    API_PASSWORD = <your password>
-    ```
+   ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -247,12 +247,10 @@ Body Example for sub-entity-analysis/cumulative-index-values endpoint:
     │   │   │   └── favicon.svg
     │   │   ├── __init__.py
     │   │   └── api.py
-    │   └───vegetation_index_impacted_areas_identificator
+    │   └───sub_entity_analysis
     │       ├── __init__.py
     │       ├── utils.py
-    │       ├── vegetation_index.py
-    │       ├── vegetation_index_calculator.py
-    │       └── impacted_areas_identification.py
+    │       └── sub_entity_analysis.py      
     └── tests  
 
 <p align="right">(<a href="#top">back to top</a>)</p>
