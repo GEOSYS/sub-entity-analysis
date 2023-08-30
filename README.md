@@ -93,7 +93,7 @@ To be able to run this example, you will need to have following tools installed:
 4. Install Git: please install Github on your computer. You can download and install it by visiting <a href=https://desktop.github.com/>here</a> and following the provided instructions
 
 
-This package has been tested on Python 3.9.7.
+This package has been tested on Python 3.11.4
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -145,7 +145,7 @@ To use the project with Jupyter Notebook, follow these steps:
 
     
     ```
-    conda create -y --name demo_example3 python=3.9
+    conda create -y --name demo_example3
     ```
 
 
